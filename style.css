@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  background: #ecf0f1;
+  color: #042a40;
+  
+}
+
+header {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 15px;
+ 
+}
+
+section {
+  
+}
+
+h1,
+h2 {text-shadow: 1px 1px 1px #333;
+  font-size: 3em;
+  
+  
+}
+
+h4 {font-weight: big;
+  
+}
+
+p{
+  
+}
+
+.unbold {
+  font-weight: normal;
+}
+
+li{
+  
+}
+
+hr.heartdivider {
+	border-top: 4px double #F4E078;
+	text-align: center;
+}
+hr.heartdivider:after {
+	content: '\01f340';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #ecf0f1;
+	color: #F21167;
+	font-size: 18px;
+}
+
+
+
